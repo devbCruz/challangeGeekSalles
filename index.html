@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/63bfe82fb5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header"></header>
+    <main class="alura-geek">
+        <section class="produtos">
+            <h2>Meus Produtos:</h2>
+            <div class="produtos-lista" id="produtosLista">
+                <!-- Os produtos adicionados serão inseridos aqui -->
+            </div>
+        </section>
+        
+        <section class="formulario">
+            <h2>Adicionar Produto:</h2>
+            <form id="produtoForm">
+                <input type="text" id="nome" placeholder="Nome do Produto" required>
+                <input type="text" id="descricao" placeholder="Descrição do Produto" required>
+                <input type="url" id="imagem" placeholder="URL da Imagem" required>
+                <input type="text" id="preco" placeholder="preço..." required>
+
+                <div class="botoes">
+                    <button type="submit">Adicionar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+</body>
+<script src="adicionar.js"></script>
+</html>

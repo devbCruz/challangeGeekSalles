@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header {
+    background-image: url('imagem\ \(2\).png');
+    background-size: cover;
+    background-position: center; 
+    height: 9.5em;
+    border-radius: 25px;
+}
+
+/**/
+.alura-geek {
+    background-image: url(image.png);
+    display: flex;
+    gap: 40px;
+    padding: 20px 10px;
+    justify-content: space-between;
+    flex: 1; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 15px;
+    margin-top: auto;
+}
+
+
+.produtos {
+    flex: 2;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.produtos h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Courier New', monospace;
+}
+
+.produtos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px;
+    justify-content: flex-start;
+}
+
+.produto-card {
+    width: calc(33.333% - 16px);;
+    background-color: #008000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+
+.produto-card img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.produto-card p {
+    margin: 5px 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.produto-card span {
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 5px 0;
+}
+
+.fa-solid {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilos da seção de formulário */
+.formulario {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+}
+
+.formulario h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Courier New', monospace;
+}
+
+form input {
+    display: flex;
+    width:97%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #008000;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.botoes button {
+    flex: 1;
+    padding: 10px;
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botoes button[type="reset"] {
+    background-color: #fff;
+    color: #008000;
+    border: 2px solid  #008000;
+}
+
+.produtos, .formulario {
+    flex: 1; /* Faz com que ocupem o mesmo espaço */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Exemplo de borda para visualização */
+    border-radius: 8px; /* Bordas arredondadas */
+
+}
+
+.footer {
+    background-image: url('imagem (1).png');
+    background-size: cover;
+    background-position: center; 
+    height: 9.5em;
+    border-radius: 25px;
+}
